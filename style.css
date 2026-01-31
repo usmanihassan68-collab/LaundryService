@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.navbar{
+    width:100%;
+    height:70px;
+    padding:0 80px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background:#ffffff;
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:28px;
+    text-decoration:none;
+    font-size:14px;
+    color:#9aa6b2;
+    font-weight:500;
+}
+
+
+
+.user-btn{
+    padding:8px 14px;
+    font-size:12px;
+    background:#e8f5ff;
+    color:#2a9df4;
+    border-radius:8px;
+    font-weight:500;
+}
+
+
+
+
+.hero{
+    min-height:calc(100vh - 70px);
+    padding:0 80px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.hero-left{
+    max-width:520px;
+}
+
+.hero-left h1{
+    font-size:36px;
+    line-height:1.25;
+    color:#3f4f5f;
+    font-weight:700;
+    margin-bottom:14px;
+}
+
+.hero-left h1 span{
+    color:#169cff;
+}
+
+.hero-left p{
+    font-size:14px;
+    line-height:1.6;
+    color:#9aa6b2;
+    margin-bottom:26px;
+}
+
+.cta-btn{
+    display:inline-block;
+    padding:12px 22px;
+    background:#169cff;
+    color:white;
+    text-decoration:none;
+    font-size:13px;
+    border-radius:10px;
+    font-weight:500;
+}
+
+
+
+.hero-right img{
+    max-width:420px;
+    width:100%;
+    display:block;
+}
